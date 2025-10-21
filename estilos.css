@@ -1,0 +1,433 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+
+}
+
+
+body { 
+    background-color: #5e97ad;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0%;
+
+}
+
+
+h1{font-size: 5.0em;
+color: rgb(222, 240, 245);
+}
+h2{font-size: 3.5em;
+color: rgb(222, 240, 245);
+}
+
+h3{font-size: 3em;
+color: rgb(222, 240, 245);
+}
+p{font-size: 1.25em;}
+
+button{
+
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid rgba(black);
+    box-shadow: 2px 2px 10px rgba(black);
+    color: rgb(78, 51, 51);
+    background-color: rgb(108, 147, 199);
+    
+}
+
+button:hover{
+    background-color: blue;
+}
+
+p{
+    color: rgb(222, 240, 245);
+    font-size: 25px;
+}
+
+img{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+header a{
+    padding: 5px 12px;
+    margin: 50px 20px;
+    text-decoration: none;
+    color: rgb(82, 97, 102);
+    font-weight: bold;
+}
+
+a:hover{
+    color: blueviolet;
+
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color: blueviolet;}
+
+header{
+    background-color: rgb(179, 182, 147);
+}
+
+header .logo{
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(44, 30, 58);
+    font-size: 2.5em;
+}
+
+header .container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("informatica.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: aliceblue;
+}
+
+#heroe h1{
+    color: azure;
+
+}
+
+ #mis-cursos{
+  background-color: rgb(116, 156, 209);
+ }
+
+ #mas-sobre-mi .container{
+    text-align: center;
+    padding: 200px 12px;
+
+ }
+
+ #mis-cursos .carta{
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+ }
+
+ .carta:first-child{
+background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("ejemex.jpg");
+ }
+
+ .carta:nth-child(2){
+ background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("chef.jpg");
+ }
+
+
+
+ .carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("programacion.jpg");
+ }
+
+  
+#mis-cursos .presentacion{
+    display: flex;
+    justify-content: center;
+}
+
+#mis-cursos p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#mis-cursos h3{
+    margin-top: 0;
+}
+
+#mis-cursos .carta{
+    padding: 15px;
+}
+
+img {
+    border-radius: 15px;
+}
+    
+
+/*aqui comienza la pagina 1*/
+
+#pagina1{ 
+    background-color: #b69c84;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0%;
+
+}
+
+header .container2{
+    background-color: rgb(109, 155, 177);
+}
+
+
+/*aqui es la pagina 2*/
+
+#pagina2{ 
+    background-color: #5f5d5d;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0%;
+
+}
+
+header .container3{
+    background-color: rgb(66, 108, 128);
+}
+
+#mis-conocimientos{
+  background-color: rgb(116, 156, 209);
+ }
+
+ #mis-conocimientos .containers{
+    text-align: center;
+    padding: 200px 12px;
+
+ }
+
+ #mis-conocimientos .la-carta{
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+ }
+
+ .la-carta:first-child{
+background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("tecnico.jpg");
+ }
+
+ .la-carta:nth-child(2){
+ background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("derechos-humanos.jpg");
+ }
+
+
+
+ .la-carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("cocinar.jpg");
+ }
+
+  .la-carta:nth-child(4){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("primeros-auxilios.jpg");
+ }
+
+  .la-carta:nth-child(5){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("secretariado.jpg");
+ }
+
+  .la-carta:nth-child(6){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("militares.jpg");
+ }
+  
+#mis-conocimientos .la-presentacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mis-conocimientos p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#mis-conocimientos h3{
+    margin-top: 0;
+}
+
+#mis-conocimientos .la-carta{
+    padding: 15px;
+}
+
+
+
+/*aqui es la pagina 3*/
+
+
+#pagina3{ 
+    background-color: #927026;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0%;
+
+}
+
+header .container4{
+    background-color: rgb(122, 117, 93);
+}
+
+#mi-contacto{
+  background-color: rgb(116, 156, 209);
+ }
+
+ #mi-contacto .container5{
+    text-align: center;
+    padding: 200px 12px;
+
+ }
+
+ #mi-contacto .cartas{
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+ }
+
+ .cartas:first-child{
+background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("correo.jpg");
+ }
+
+ .cartas:nth-child(2){
+ background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("telefono.jpg");
+ }
+
+
+
+ .cartas:nth-child(3){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 
+    )
+    
+    ,url("indeed.jpg");
+ }
+
+  
+#mi-contacto .presentaciones{
+    display: flex;
+    justify-content: center;
+}
+
+#mi-contacto p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#mi-contacto h3{
+    margin-top: 0;
+}
+
+#mi-contacto .carta{
+    padding: 15px;
+}
+
+.boton-indeed{
+    background-color: #2164f3;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    }
+
+    .boton-indeed:hover{
+        background-color: #17abcf;
+    }
